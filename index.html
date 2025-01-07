@@ -4,27 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Basic Website</title>
+
+    <!--
+        Colors 
+        #554640 brown
+        #F1E0C5 
+        #D1C9AF
+        #B1B199 sage
+        #71816D green
+        #FFFCEE white (ivory)
+        -->
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
             line-height: 1.6;
+            background-color: #FFFCEE;
         }
         header {
-            background: #333;
-            color: #fff;
+            background: #554640;
+            color: #D1C9AF;
             padding: 1rem 0;
             text-align: center;
         }
         nav {
             display: flex;
             justify-content: center;
-            background: #444;
+            background: #71816D;
             padding: 0.5rem;
         }
         nav a {
-            color: #fff;
+            
+            color: #D1C9AF;
             text-decoration: none;
             margin: 0 1rem;
         }
@@ -35,13 +47,29 @@
             padding: 2rem;
         }
         footer {
-            background: #333;
-            color: #fff;
+            background: #B1B199;
+            color: #FFFCEE;
             text-align: center;
             padding: 1rem 0;
             position: fixed;
             bottom: 0;
             width: 100%;
+        }
+        .parallax {
+            /* Create the parallax scrolling effect */
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 100vh;
+        }
+
+        .parallax-1 {
+            background-image: url('your-image-1.jpg'); /* Replace with your image */
+        }
+
+        .parallax-2 {
+            background-image: url('your-image-2.jpg'); /* Replace with your image */
         }
     </style>
 </head>
@@ -57,6 +85,7 @@
     </nav>
  
     <main>
+        <!-- 
         <section id="home">
             <h2>Home</h2>
             <p>This is the home section where you can introduce your website or its purpose.</p>
@@ -69,9 +98,10 @@
             <h2>Wort</h2>
             <p>Include your contact information or a contact form here.</p>
         </section>
+        -->
     </main>
     <footer>
-        <p>&copy; 2025 Your Name. All rights reserved.</p>
+        <p>&copy; 2025 Camilla Evans. All rights reserved.</p>
     </footer>
 </body>
 </html>
