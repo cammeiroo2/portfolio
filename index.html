@@ -21,6 +21,7 @@
             padding: 0;
             line-height: 1.6;
             background-color: #FFFCEE;
+            height: 100%;
         }
         header {
             background: #554640;
@@ -45,6 +46,7 @@
         }
         main {
             padding: 2rem;
+            height: 100%;
         }
         footer {
             background: #B1B199;
@@ -55,22 +57,25 @@
             bottom: 0;
             width: 100%;
         }
+        
         .parallax {
-            /* Create the parallax scrolling effect */
-            background-attachment: fixed;
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
-            height: 100vh;
+        /* The image used */
+        background-image: url("images/Glass.jpg");
+
+        /* Full height */
+        height: 100%;
+
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        }
+       
+        .red-background {
+            background: #ff0000;
         }
 
-        .parallax-1 {
-            background-image: url('images/Stock 1.jpg'); /* Replace with your image */
-        }
-
-        .parallax-2 {
-            background-image: url('images/Stock 2.jpg'); /* Replace with your image */
-        }
     </style>
 </head>
 <body>
@@ -83,9 +88,9 @@
         <a href="#about">About</a>
         <a href="#work">Work</a>
     </nav>
- 
     <main>
-        <!-- 
+        
+   
         <section id="home">
             <h2>Home</h2>
             <p>This is the home section where you can introduce your website or its purpose.</p>
@@ -98,7 +103,22 @@
             <h2>Wort</h2>
             <p>Include your contact information or a contact form here.</p>
         </section>
-        -->
+        
+        
+        <div class="parallax"></div>
+
+        <p class="red-background">Lorem ipsum odor amet, consectetuer adipiscing elit. Vehicula posuere integer viverra dui pulvinar nec vivamus felis suspendisse! Parturient lobortis ullamcorper dis tristique mauris vel accumsan? Quam nisl porttitor fusce lacinia commodo. Torquent parturient luctus consectetur platea dignissim fames lectus. Dignissim cursus dolor efficitur luctus pulvinar vestibulum fermentum. Dui tincidunt nam porta nascetur praesent dapibus vitae aliquam facilisis. Aenean fermentum sit lacus egestas mi parturient. Quis habitasse tincidunt velit nisi vivamus torquent turpis. Praesent taciti feugiat penatibus faucibus mi libero.
+
+            At magnis volutpat tristique potenti libero tristique; tempus lacus. Sem sociosqu tristique dui nulla feugiat vestibulum. Phasellus cursus porttitor, primis vulputate pellentesque leo suspendisse praesent. Hac suscipit fringilla placerat vivamus morbi potenti; lorem cursus. Rutrum porta condimentum sed mattis fermentum nibh lobortis gravida. Torquent congue phasellus non fames massa hendrerit aliquam curae. Suscipit natoque leo eu quam volutpat magna penatibus.
+            
+            Praesent blandit velit sodales at risus adipiscing. Pharetra faucibus auctor nascetur, fusce aliquam magna ultricies congue feugiat. Tincidunt pulvinar vel placerat quam a. Nisl penatibus eros dis varius tristique ad commodo etiam suspendisse. Magna eu gravida mi metus rhoncus nulla dictumst vivamus. Lobortis curae non euismod magna; duis malesuada lectus porta.
+            
+            Vel aptent taciti quam elit natoque ex. Laoreet ornare suspendisse torquent vestibulum morbi class. Erat in magnis conubia platea lectus suscipit ornare vehicula viverra. At non natoque nascetur tortor posuere laoreet accumsan mi. Habitant bibendum volutpat quisque mauris rutrum aliquet ante. Phasellus adipiscing varius ad scelerisque ac donec odio ac. Scelerisque sociosqu quis fusce sollicitudin sed dui tempus odio.
+            
+            Consectetur curabitur lectus venenatis fringilla; eu odio. Quam justo porttitor lacus risus pretium. Senectus senectus consequat varius nisl egestas montes cubilia conubia. Hac placerat pulvinar eu; dignissim egestas mattis odio. Risus natoque magnis, orci netus magna inceptos posuere fermentum. Inceptos phasellus sagittis rhoncus netus magnis conubia. Congue consectetur urna maximus nascetur nulla primis parturient eu ultrices.
+        </p>
+        <div class="parallax"></div>
+    
     </main>
     <footer>
         <p>&copy; 2025 Camilla Evans. All rights reserved.</p>
